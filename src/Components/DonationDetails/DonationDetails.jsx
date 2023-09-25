@@ -14,7 +14,7 @@ const DonationDetails = () => {
     
     useEffect(()=>{
         
-        const findData = donations.find(data=>data.donation_id === donation_id)
+        const findData = donations?.find(data=>data.donation_id === donation_id)
        setDonation(findData);
       
         
@@ -30,7 +30,7 @@ const DonationDetails = () => {
             swal("Successfully donated!", "Thanks for spreading love.", "success");
         }
         else{
-            const isExist = fromLocalStorage.find(data=>data.donation_id === donation_id)
+            const isExist = fromLocalStorage?.find(data=>data.donation_id === donation_id)
             // console.log(isExist.title,fromLocalStorage);
             if(isExist){
                
