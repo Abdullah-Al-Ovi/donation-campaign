@@ -23,7 +23,7 @@ const Banner = () => {
               placeholder="Search Here..."
               id=""
             />
-            <input className="bg-[#FF444A] p-2 rounded-r-md" type="submit" value="Search" />
+            <input className="bg-[#FF444A] p-2 rounded-r-md text-white font-medium" type="submit" value="Search" />
           </div>
         </div>
       </div>
