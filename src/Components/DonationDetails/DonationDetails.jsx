@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { useLoaderData, useParams } from "react-router-dom";
+import swal from 'sweetalert';
 
 
 const DonationDetails = () => {
@@ -12,12 +13,36 @@ const DonationDetails = () => {
     
     
     useEffect(()=>{
-       
+        
         const findData = donations.find(data=>data.donation_id === donation_id)
        setDonation(findData);
       
         
     },[donation,donation_id,donations])
+
+    const handleLocalStorage =()=>{
+        const donationList =[]
+        const fromLocalStorage = JSON.parse(localStorage.getItem('addedDonationList'))
+        if(!fromLocalStorage){
+            donationList.push(donation)
+            localStorage.setItem("addedDonationList",JSON.stringify(donationList))
+            
+            swal("Successfully donated!", "Thanks for spreading love.", "success");
+        }
+        else{
+            const isExist = fromLocalStorage.find(data=>data.donation_id === donation_id)
+            // console.log(isExist.title,fromLocalStorage);
+            if(isExist){
+               
+                swal("Already donated in this sector!","Please try the remaining.", "error");
+            }
+            else{
+                donationList.push(...fromLocalStorage,donation)
+                localStorage.setItem("addedDonationList",JSON.stringify(donationList))
+                swal("Successfully donated!", "Thanks for spreading love.", "success");
+            }
+        }
+    }
     
 
     return (
@@ -32,7 +57,7 @@ const DonationDetails = () => {
         
         {/* Button Container */}
         <div className="absolute bottom-3 left-3">
-          <button
+          <button onClick={handleLocalStorage}
             className="p-1 text-white font-medium rounded"
             style={{ backgroundColor: text_color }}
           >
