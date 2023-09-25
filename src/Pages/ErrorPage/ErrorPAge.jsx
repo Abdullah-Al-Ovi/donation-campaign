@@ -5,7 +5,7 @@ const ErrorPAge = () => {
     let error = useRouteError()
     console.log(error);
     return (
-        <div className="h-[80vh] flex  border-2 justify-center items-center">
+        <div className="h-[80vh] flex justify-center items-center">
             <div className="text-center space-y-3">
             <h1 className="text-5xl font-extrabold">
                 <span className="text-red-900">O</span>
