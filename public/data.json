@@ -1,7 +1,7 @@
 [
     {
-      "donation_id": 1,
-      "category_id": 1,
+      "donation_id":" 1",
+      "category_id": "1",
       "category": "Health",
       "image": "https://i.ibb.co/Sftcgnb/Health1.png",
       "title": "Medical Supplies for Local",
@@ -12,8 +12,8 @@
       "text_color": "#0052FF"
     },
     {
-      "donation_id": 2,
-      "category_id": 1,
+      "donation_id": "2",
+      "category_id":" 1",
       "category": "Health",
       "image": "https://i.ibb.co/c1gH2mj/health2.jpg",
       "title": "Support Pediatric Care",
@@ -24,8 +24,8 @@
       "text_color": "#0052FF"
     },
     {
-      "donation_id": 3,
-      "category_id": 1,
+      "donation_id": "3",
+      "category_id": "1",
       "category": "Health",
       "image": "https://i.ibb.co/4Tdk3wK/health3.jpg",
       "title": "Medical Research Funding",
@@ -36,8 +36,8 @@
       "text_color": "#0052FF"
     },
     {
-      "donation_id": 4,
-      "category_id": 2,
+      "donation_id": "4",
+      "category_id": "2",
       "category": "Education",
       "image": "https://i.ibb.co/BjYrBSw/Education1.png",
       "title": "Scholarship for poor Student",
@@ -48,8 +48,8 @@
       "text_color": "#FF444A"
     },
     {
-      "donation_id": 5,
-      "category_id": 2,
+      "donation_id": "5",
+      "category_id":" 2",
       "category": "Education",
       "image": "https://i.ibb.co/T26YPnq/education2.jpg",
       "title": "Library Renovation Project",
@@ -60,8 +60,8 @@
       "text_color": "#FF444A"
     },
     {
-      "donation_id": 6,
-      "category_id": 2,
+      "donation_id":" 6",
+      "category_id": "2",
       "category": "Education",
       "image": "https://i.ibb.co/mbYKyz2/education3.jpg",
       "title": "STEM Education Initiative",
@@ -72,8 +72,8 @@
       "text_color": "#FF444A"
     },
     {
-      "donation_id": 7,
-      "category_id": 3,
+      "donation_id": "7",
+      "category_id": "3",
       "category": "Clothing",
       "image": "https://i.ibb.co/smzwzS4/Clothing1.png",
       "title": "Winter Clothing Drive",
@@ -84,8 +84,8 @@
       "text_color": "#79C23F"
     },
     {
-      "donation_id": 8,
-      "category_id": 3,
+      "donation_id": "8",
+      "category_id":" 3",
       "category": "Clothing",
       "image": "https://i.ibb.co/hFx3NGj/clothing2.jpg",
       "title": " Attire for Job Seekers",
@@ -96,8 +96,8 @@
       "text_color": "#79C23F"
     },
     {
-      "donation_id": 9,
-      "category_id": 3,
+      "donation_id": "9",
+      "category_id": "3",
       "category": "Clothing",
       "image": "https://i.ibb.co/RvHZJY6/Clothing3.png",
       "title": "School Uniforms for Children",
@@ -108,8 +108,8 @@
       "text_color": "#79C23F"
     },
     {
-      "donation_id": 10,
-      "category_id": 4,
+      "donation_id": "10",
+      "category_id":" 4",
       "category": "Food",
       "image": "https://i.ibb.co/TrS87T3/Food1.png",
       "title": "Food for Homeless Shelters",
@@ -120,8 +120,8 @@
       "text_color": "#FF69B4"
     },
     {
-      "donation_id": 11,
-      "category_id": 4,
+      "donation_id": "11",
+      "category_id":" 4",
       "category": "Food",
       "image": "https://i.ibb.co/VV9f0h5/food2.jpg",
       "title": "Community Food Pantry",
@@ -132,8 +132,8 @@
       "text_color": "#FF69B4"
     },
     {
-      "donation_id": 12,
-      "category_id": 4,
+      "donation_id":" 12",
+      "category_id": "4",
       "category": "Food",
       "image": "https://i.ibb.co/yYSry3H/food3.jpg",
       "title": "Nutrition  Workshops",

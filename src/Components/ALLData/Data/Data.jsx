@@ -7,7 +7,7 @@ const Data = ({data}) => {
  
 
     return (
-        <NavLink to={`/donation/${donation_id}`} className={`flex flex-col   shadow-xl rounded-md `} style={{backgroundColor:card_bg}}>
+        <NavLink to={`/donation/${donation_id}`} className={`flex flex-col mb-3  shadow-xl rounded-md `} style={{backgroundColor:card_bg}}>
               <div className="flex-grow rounded-md  h-[80%] bg-cover bg-center ">
                  <img className="h-[100%] w-[100%]  rounded-md " src={image} alt="Shoes" />
              </div>
@@ -17,8 +17,6 @@ const Data = ({data}) => {
                 <p className={`text-lg font-medium`} style={{ color: text_color}}>{title}</p>
              </div>
                 
-                
-           
            </NavLink>
     );
 };
