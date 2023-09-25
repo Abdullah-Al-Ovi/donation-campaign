@@ -1,0 +1,147 @@
+[
+    {
+      "donation_id": 1,
+      "category_id": 1,
+      "category": "Health",
+      "image": "https://i.ibb.co/Sftcgnb/Health1.png",
+      "title": "Medical Supplies for Local",
+      "description": "Help provide essential medical supplies to a local clinic serving underprivileged communities.",
+      "price": 50,
+      "category_bg": "rgba(0, 82, 255, 0.20)",
+      "card_bg": "rgba(0, 82, 255, 0.15)",
+      "text_color": "#0052FF"
+    },
+    {
+      "donation_id": 2,
+      "category_id": 1,
+      "category": "Health",
+      "image": "https://i.ibb.co/c1gH2mj/health2.jpg",
+      "title": "Support Pediatric Care",
+      "description": "Contribute to the Pediatric Care Program, ensuring the health and well-being of children in need.",
+      "price": 30,
+      "category_bg": "rgba(0, 82, 255, 0.20)",
+      "card_bg": "rgba(0, 82, 255, 0.15)",
+      "text_color": "#0052FF"
+    },
+    {
+      "donation_id": 3,
+      "category_id": 1,
+      "category": "Health",
+      "image": "https://i.ibb.co/4Tdk3wK/health3.jpg",
+      "title": "Medical Research Funding",
+      "description": "Fund critical medical research projects aimed at finding cures and treatments for diseases.",
+      "price": 75,
+      "category_bg": "rgba(0, 82, 255, 0.20)",
+      "card_bg": "rgba(0, 82, 255, 0.15)",
+      "text_color": "#0052FF"
+    },
+    {
+      "donation_id": 4,
+      "category_id": 2,
+      "category": "Education",
+      "image": "https://i.ibb.co/BjYrBSw/Education1.png",
+      "title": "Scholarship for poor Students",
+      "description": "Provide educational opportunities to talented students from disadvantaged backgrounds.",
+      "price": 40,
+      "category_bg": "rgba(255, 68, 74, 0.20)",
+      "card_bg": "rgba(255, 68, 74, 0.15)",
+      "text_color": "#FF444A"
+    },
+    {
+      "donation_id": 5,
+      "category_id": 2,
+      "category": "Education",
+      "image": "https://i.ibb.co/T26YPnq/education2.jpg",
+      "title": "Library Renovation Project",
+      "description": "Support the renovation of a local library to create a better learning environment for students.",
+      "price": 25,
+      "category_bg": "rgba(255, 68, 74, 0.20)",
+      "card_bg": "rgba(255, 68, 74, 0.15)",
+      "text_color": "#FF444A"
+    },
+    {
+      "donation_id": 6,
+      "category_id": 2,
+      "category": "Education",
+      "image": "https://i.ibb.co/mbYKyz2/education3.jpg",
+      "title": "STEM Education Initiative",
+      "description": "Empower students with STEM skills through workshops and educational programs.",
+      "price": 60,
+      "category_bg": "rgba(255, 68, 74, 0.20)",
+      "card_bg": "rgba(255, 68, 74, 0.15)",
+      "text_color": "#FF444A"
+    },
+    {
+      "donation_id": 7,
+      "category_id": 3,
+      "category": "Clothing",
+      "image": "https://i.ibb.co/smzwzS4/Clothing1.png",
+      "title": "Winter Clothing Drive",
+      "description": "Donate warm clothing items to help individuals in need stay comfortable during the winter season.",
+      "price": 20,
+      "category_bg": "rgba(121,194,63,0.20)",
+      "card_bg": "rgba(121,194,63,0.15)",
+      "text_color": "#79C23F"
+    },
+    {
+      "donation_id": 8,
+      "category_id": 3,
+      "category": "Clothing",
+      "image": "https://i.ibb.co/hFx3NGj/clothing2.jpg",
+      "title": " Attire for Job Seekers",
+      "description": "Provide professional clothing to job seekers to help them secure employment opportunities.",
+      "price": 35,
+      "category_bg": "rgba(121,194,63,0.20)",
+      "card_bg": "rgba(121,194,63,0.15)",
+      "text_color": "#79C23F"
+    },
+    {
+      "donation_id": 9,
+      "category_id": 3,
+      "category": "Clothing",
+      "image": "https://i.ibb.co/RvHZJY6/Clothing3.png",
+      "title": "School Uniforms for Children",
+      "description": "Equip children with school uniforms, ensuring they have the essentials for a successful education.",
+      "price": "#79C23F",
+      "category_bg": "rgba(121,194,63,0.20)",
+      "card_bg": "rgba(121,194,63,0.15)",
+      "text_color": "#79C23F"
+    },
+    {
+      "donation_id": 10,
+      "category_id": 4,
+      "category": "Food",
+      "image": "https://i.ibb.co/TrS87T3/Food1.png",
+      "title": "Food for Homeless Shelters",
+      "description": "Support local homeless shelters by providing nutritious meals to those in need.",
+      "price": 45,
+      "category_bg": "rgba(255,105,180,0.20)",
+      "card_bg": "rgba(255,105,180,0.20)",
+      "text_color": "#FF69B4"
+    },
+    {
+      "donation_id": 11,
+      "category_id": 4,
+      "category": "Food",
+      "image": "https://i.ibb.co/VV9f0h5/food2.jpg",
+      "title": "Community Food Pantry",
+      "description": "Help stock a community food pantry to ensure that families have access to essential groceries.",
+      "price": 55,
+      "category_bg": "rgba(255,105,180,0.20)",
+      "card_bg": "rgba(255,105,180,0.20)",
+      "text_color": "#FF69B4"
+    },
+    {
+      "donation_id": 12,
+      "category_id": 4,
+      "category": "Food",
+      "image": "https://i.ibb.co/yYSry3H/food3.jpg",
+      "title": "Nutrition  Workshops",
+      "description": "Support nutrition education workshops to promote healthier eating habits in the community.",
+      "price": 30,
+      "category_bg": "rgba(255,105,180,0.20)",
+      "card_bg": "rgba(255,105,180,0.20)",
+      "text_color": "#FF69B4"
+    }
+  ]
+  
