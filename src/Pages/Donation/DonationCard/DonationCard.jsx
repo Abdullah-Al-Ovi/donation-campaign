@@ -10,10 +10,10 @@ const DonationCard = ({donation}) => {
   </div>
   <div className="card-body">
  <div> <button className={` mb-2 p-1 rounded text-sm font-medium`} style={{backgroundColor:category_bg, color: text_color}}>{category}</button></div>
-    <h2 className="card-title" >{title}</h2>
-    <p className="font-medium" style={{ color: text_color}}>${price}</p>
+    <h2 className="text-xl font-medium my-2 " >{title}</h2>
+    <p className="font-medium mb-2" style={{ color: text_color}}>${price}</p>
     <div className="card-actions justify-start">
-      <button className="btn btn-primary text-white" style={{ backgroundColor: text_color}}>View Details</button>
+      <button className="btn btn-primary text-white mb-1" style={{ backgroundColor: text_color}}>View Details</button>
     </div>
   </div>
 </div>

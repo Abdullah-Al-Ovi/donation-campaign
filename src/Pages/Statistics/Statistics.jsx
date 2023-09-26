@@ -16,7 +16,7 @@ const Statistics = () => {
             const total = 100-donation
             settotalPercentage(total)
         }
-    },[])
+    },[data.length])
     return (
         <div className='h-[63vh] my-9 flex flex-col items-center justify-center '>
             <h1 className='text-xl font-bold text-amber-600 mb-7'>Donation Chart</h1>

@@ -19,7 +19,7 @@ const Donation = () => {
     },[])
     return (
        <div>
-         <div className="grid grid-cols-1 lg:grid-cols-2 w-[90%] mx-auto my-7 gap-3">
+         <div className="grid grid-cols-1 lg:grid-cols-2 w-[90%]  md:w-[60%] lg:w-[80%] mx-auto my-7 gap-5">
            {
               seeMore ?  donationList?.map((donation,idx)=><DonationCard key={idx} donation={donation}></DonationCard>)
               :

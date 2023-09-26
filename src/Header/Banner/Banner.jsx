@@ -1,10 +1,22 @@
+import { useState } from 'react';
 import background from '../../assets/background_image.png'
 
-const Banner = () => {
+const Banner = ({val,setVal}) => {
+
+  
+  console.log( val);
     const backgroundImageStyle = {
         backgroundImage: `url(${background})`,
         opacity: 0.3
       };
+
+      const handleSearch=e=>{
+        e.preventDefault()
+        const input = e.target.category.value
+        setVal(input.toLowerCase());
+        
+      }
+
     return (
         <div className="relative  h-[60vh] flex justify-center items-center w-[100%] ">
         <div
@@ -16,14 +28,17 @@ const Banner = () => {
             I Grow By Helping People In Need
           </h1>
           <div className="flex justify-center">
-            <input
+           <form onSubmit={handleSearch}>
+           <input
               className="border-[1px] p-2 bg-[#DEDEDE] placeholder:text-[#0B0B0B66] rounded-l-md placeholder:p-2 placeholder:text-xs"
               type="text"
               name="category"
               placeholder="Search Here..."
               id=""
             />
-            <input className="bg-[#FF444A] p-2 rounded-r-md text-white font-medium" type="submit" value="Search" />
+            <input className="bg-[#FF444A] p-2 rounded-r-md text-white font-medium"  type="submit" value="Search" />
+           </form>
+            
           </div>
         </div>
       </div>
