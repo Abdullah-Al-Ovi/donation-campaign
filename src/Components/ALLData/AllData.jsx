@@ -1,13 +1,15 @@
 import { useEffect, useState } from "react";
 import Data from "./Data/Data";
 import swal from 'sweetalert';
+import PropTypes from 'prop-types';
+
 
 const AllData = ({val}) => {
     
     const [allData,setAllData] = useState([])
     const [displayData,setDisplayData] = useState([])
     
-    useEffect(()=>{
+    useEffect(()=>{ 
         fetch('/data.json')
         .then(res=>res.json())
         .then(data=>setAllData(data))
@@ -41,5 +43,8 @@ const AllData = ({val}) => {
         </div>
     );
 };
+AllData.propTypes = {
+    val: PropTypes.string.isRequired
+}
 
 export default AllData;

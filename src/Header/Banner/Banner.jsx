@@ -1,10 +1,9 @@
-import { useState } from 'react';
+import PropTypes from 'prop-types';
 import background from '../../assets/background_image.png'
 
-const Banner = ({val,setVal}) => {
 
-  
- 
+const Banner = ({setVal}) => {
+
     const backgroundImageStyle = {
         backgroundImage: `url(${background})`,
         opacity: 0.3
@@ -44,5 +43,9 @@ const Banner = ({val,setVal}) => {
       </div>
     );
 };
+Banner.propTypes ={
+  setVal: PropTypes.func.isRequired
+}
+
 
 export default Banner;
