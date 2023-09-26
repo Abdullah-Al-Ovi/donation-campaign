@@ -15,7 +15,9 @@ const AllData = ({val}) => {
 
     useEffect(()=>{
         if(val){
-           const display= allData.filter((data)=>data.category.toLowerCase().includes(val))
+           const regEx = new RegExp(val.split('').join('.*'))
+           const display= allData.filter((data)=>regEx.test(data.category.toLowerCase()))
+           
            
            if(display.length === 0){
             setDisplayData(allData)

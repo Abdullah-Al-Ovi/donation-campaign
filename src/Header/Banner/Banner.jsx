@@ -4,7 +4,7 @@ import background from '../../assets/background_image.png'
 const Banner = ({val,setVal}) => {
 
   
-  console.log( val);
+ 
     const backgroundImageStyle = {
         backgroundImage: `url(${background})`,
         opacity: 0.3
