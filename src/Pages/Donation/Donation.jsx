@@ -42,7 +42,7 @@ const Donation = () => {
         </div>
         <div className="text-center mb-7">
         {
-            <button onClick={handleSee} className={`p-[5px] rounded bg-orange-400 text-white ${donationList?.length > 4 || "hidden"} font-medium `}>{seeMore ? "See less" : "See All"} </button>
+            <button onClick={handleSee} className={`p-[5px] rounded bg-[#009444] text-white ${donationList?.length > 4 || "hidden"} font-medium `}>{seeMore ? "See less" : "See All"} </button>
         }
         </div>
             </div>
