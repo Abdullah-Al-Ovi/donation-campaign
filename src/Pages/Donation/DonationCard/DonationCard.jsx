@@ -1,4 +1,4 @@
-
+import PropTypes from 'prop-types';
 
 const DonationCard = ({donation}) => {
     const {image,category,title,price,category_bg,card_bg,text_color} = donation
@@ -19,5 +19,9 @@ const DonationCard = ({donation}) => {
 </div>
     );
 };
+
+DonationCard.propTypes = {
+  donation: PropTypes.object.isRequired
+}
 
 export default DonationCard;

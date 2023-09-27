@@ -1,5 +1,5 @@
-import { Link, NavLink } from "react-router-dom";
-
+import {  NavLink } from "react-router-dom";
+import PropTypes from 'prop-types';
 
 const Data = ({data}) => {
     const {donation_id,image,category,title,category_bg,card_bg,text_color} = data
@@ -20,5 +20,7 @@ const Data = ({data}) => {
            </NavLink>
     );
 };
-
+Data.propTypes ={
+    data: PropTypes.object.isRequired
+}
 export default Data;

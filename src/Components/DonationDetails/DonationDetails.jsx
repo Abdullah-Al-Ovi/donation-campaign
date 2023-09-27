@@ -31,7 +31,7 @@ const DonationDetails = () => {
         }
         else{
             const isExist = fromLocalStorage?.find(data=>data.donation_id === donation_id)
-            // console.log(isExist.title,fromLocalStorage);
+            
             if(isExist){
                
                 swal("Already donated in this sector!","Please try the remaining.", "error");
@@ -52,10 +52,10 @@ const DonationDetails = () => {
       <div className="flex justify-center mb-3">
         <img className="w-full" src={donation.image} alt={donation.title} />
 
-        {/* Overlay */}
+        
         <div className="absolute bottom-0 left-0 w-full h-16 bg-black opacity-60"></div>
         
-        {/* Button Container */}
+      
         <div className="absolute bottom-3 left-3">
           <button onClick={handleLocalStorage}
             className="p-1 text-white font-medium rounded"
