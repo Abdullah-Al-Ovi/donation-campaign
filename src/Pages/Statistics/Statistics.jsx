@@ -4,10 +4,10 @@ import { useLoaderData } from 'react-router-dom';
 
 const Statistics = () => {
     const [donationPercentage,setDonationPercentage] = useState(0)
-    const [totalPercentage,settotalPercentage] = useState(0)
+    const [totalPercentage,settotalPercentage] = useState(100)
     const data = useLoaderData(0)
     
-    console.log(donationPercentage,totalPercentage);
+   
     useEffect(()=>{
         const fromLocalStorage = JSON.parse(localStorage.getItem('addedDonationList'));
         if(fromLocalStorage){
@@ -18,12 +18,13 @@ const Statistics = () => {
         }
     },[data.length])
     return (
-        <div className='h-[63vh] my-9 flex flex-col items-center justify-center '>
+        <div className='h-[67vh] my-9 flex flex-col items-center justify-center  '>
             <h1 className='text-xl font-bold text-amber-600 mb-7'>Donation Chart</h1>
+           <div className='w-full max-w-lg'>
            <Chart
            
            type="pie"
-           width={700}
+           
            height = {300}
            series = {[donationPercentage,totalPercentage]}
            options ={{
@@ -48,6 +49,7 @@ const Statistics = () => {
            >
              
            </Chart>
+           </div>
         </div>
     );
 };

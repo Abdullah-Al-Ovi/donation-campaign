@@ -6,6 +6,7 @@ const Donation = () => {
 
     const [donationList,setDonationList] = useState([])
     const [seeMore,setSeeMore] = useState(false)
+    
    
     const handleSee=()=>{
         setSeeMore(!seeMore)
