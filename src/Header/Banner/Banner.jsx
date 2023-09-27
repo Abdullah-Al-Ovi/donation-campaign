@@ -24,7 +24,7 @@ const Banner = ({setVal}) => {
         />
         <div className="relative z-10 text-center my-7 ">
           <h1 className="sm:text-xl lg:text-3xl font-bold mb-3">
-            I Grow By Helping People In Need
+            We Grow By Helping People In Need
           </h1>
           <div className="flex justify-center">
            <form onSubmit={handleSearch}>
@@ -32,6 +32,7 @@ const Banner = ({setVal}) => {
               className="border-[1px] p-2 bg-[#DEDEDE] placeholder:text-[#0B0B0B66] rounded-l-md placeholder:p-2 placeholder:text-xs"
               type="text"
               name="category"
+              title='Search by category name'
               placeholder="Search Here..."
               id=""
             />

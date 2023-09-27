@@ -58,6 +58,7 @@ const DonationDetails = () => {
       
         <div className="absolute bottom-3 left-3">
           <button onClick={handleLocalStorage}
+          title="Click here to donate"
             className="p-1 text-white font-medium rounded"
             style={{ backgroundColor: text_color }}
           >
